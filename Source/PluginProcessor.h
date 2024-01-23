@@ -81,9 +81,8 @@ private:
     {
         LowCut,
         Peak,
-        HighCut,
-        END_OF_LIST
-    };
+        HighCut
+        };
     //==============================================================================
     JUCE_DECLARE_NON_COPYABLE_WITH_LEAK_DETECTOR (SimpleEQAudioProcessor)
 };
